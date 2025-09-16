@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Extract reward tx data
+Extract reward transactions data
 
 ## Installation
 

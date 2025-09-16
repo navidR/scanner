@@ -1,7 +1,7 @@
 {
   "name": "reward-extractor",
   "version": "0.1.0",
-  "description": "Extract reward tx data",
+  "description": "Extract reward transactions data",
   "license": "GPL-3.0",
   "author": "Rosen Team",
   "type": "module",
@@ -19,6 +19,9 @@
     "release": "npm run test -- --run && npm run build && npm publish --access public",
     "test": "NODE_OPTIONS='--import tsx' vitest",
     "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "abstract-extractor": "^6.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.9",
